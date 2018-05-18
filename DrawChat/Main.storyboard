@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wMf-Oe-63p">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--折线绘制-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFY-Xd-uqM">
+                                <rect key="frame" x="56" y="93" width="130" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="动态折线.png"/>
+                                <connections>
+                                    <segue destination="v7W-Sc-76o" kind="push" id="omC-Kn-oiS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I09-be-CBM">
+                                <rect key="frame" x="221" y="93" width="130" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="走势图.png"/>
+                                <connections>
+                                    <segue destination="dN3-e7-hgo" kind="push" id="Xlb-KC-hMb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 走势趋势图" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kb6-ol-fuo">
+                                <rect key="frame" x="242" y="236" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.96078431610000004" green="0.0" blue="0.40392157439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.45187630639999998" blue="0.2471841327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIA-lm-EJk">
+                                <rect key="frame" x="56" y="283" width="130" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="杂图.png"/>
+                                <connections>
+                                    <segue destination="8cr-Ov-hr0" kind="push" id="VpB-na-lli"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3 画线图" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u69-IF-nHE">
+                                <rect key="frame" x="84" y="430" width="62" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.96078431610000004" green="0.0" blue="0.40392157439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.45187630639999998" blue="0.2471841327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbA-T4-PL1">
+                                <rect key="frame" x="221" y="279" width="130" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="柱状图.png"/>
+                                <connections>
+                                    <segue destination="4EJ-GX-Dxv" kind="push" id="6Uf-oy-dGr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4 柱状图" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcL-a0-aXw">
+                                <rect key="frame" x="261" y="428" width="90" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.96078431610000004" green="0.0" blue="0.40392157439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.45187630639999998" blue="0.2471841327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M57-Em-mox">
+                                <rect key="frame" x="56" y="466" width="130" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="各种形状图.png"/>
+                                <connections>
+                                    <segue destination="lF0-Z6-WOB" kind="push" id="NcK-0A-Hvo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8h-rZ-lE2">
+                                <rect key="frame" x="221" y="466" width="130" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="饼状图.png"/>
+                                <connections>
+                                    <segue destination="hU0-7F-2Xn" kind="push" id="bgl-jh-lbb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 饼状图" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5HP-sm-biO">
+                                <rect key="frame" x="258" y="614" width="93" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.96078431610000004" green="0.0" blue="0.40392157439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.45187630639999998" blue="0.2471841327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 动态折线图" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZv-Xl-LFN">
+                                <rect key="frame" x="83" y="235" width="154" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.96078431610000004" green="0.0" blue="0.40392157439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.45187630637074239" blue="0.24718413268458383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5 各种图形" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZB-jk-5Vw">
+                                <rect key="frame" x="82" y="614" width="78" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.96078431610000004" green="0.0" blue="0.40392157439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.45187630639999998" blue="0.2471841327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15279105556254891" green="0.27761400143331771" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="折线绘制" id="QDz-a0-mgJ">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="kKk-wN-VDn"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1908.5" y="351.5"/>
+        </scene>
+        <!--饼状图-->
+        <scene sceneID="QjU-yg-tcB">
+            <objects>
+                <viewController id="hU0-7F-2Xn" customClass="PieChartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ELv-Y5-ZJ5"/>
+                        <viewControllerLayoutGuide type="bottom" id="dYm-mF-Egf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jL0-AB-6Kz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.18431380391120911" green="0.92156863212585449" blue="0.87843132019042969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="饼状图" id="bTX-Wf-8BW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="po3-zb-HrO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1479.5" y="241.5"/>
+        </scene>
+        <!--各种形状图-->
+        <scene sceneID="v3e-IY-8sA">
+            <objects>
+                <viewController id="lF0-Z6-WOB" customClass="ShapeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZtE-iJ-5yf"/>
+                        <viewControllerLayoutGuide type="bottom" id="iGr-kC-1zc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wNg-0n-LrK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.9351522642567629" green="0.83677682764755579" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="各种形状图" id="TpO-Of-5O3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="npx-7w-Rw6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1548.5" y="760.5"/>
+        </scene>
+        <!--Columnar View Controller-->
+        <scene sceneID="87r-q4-Sk0">
+            <objects>
+                <viewController id="4EJ-GX-Dxv" customClass="ColumnarViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K1l-Nj-5iz"/>
+                        <viewControllerLayoutGuide type="bottom" id="ipU-6k-nDq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aSg-Co-WIT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.39765623777437209" green="0.62997667517459432" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xs5-qA-Ki5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oNg-bC-Q4U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1381.5" y="760.5"/>
+        </scene>
+        <!--画线图-->
+        <scene sceneID="4cG-ue-W6k">
+            <objects>
+                <viewController id="8cr-Ov-hr0" customClass="DrawLineViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pGO-lD-rLW"/>
+                        <viewControllerLayoutGuide type="bottom" id="XTj-J3-UZg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="osD-Hb-Shz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.58448458319226959" green="0.66791904239498545" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="画线图" id="phN-Pb-7jg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mtm-Ub-VEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1345.5" y="884.5"/>
+        </scene>
+        <!--趋势线的绘制-->
+        <scene sceneID="5Nb-sZ-qCi">
+            <objects>
+                <viewController id="dN3-e7-hgo" customClass="trendViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HRX-xt-77n"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fen-bm-SUy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mv2-r6-fWA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.7481582503230827" blue="0.017114621951321851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="趋势线的绘制" id="GUb-pA-Rbp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ca8-Yq-GvS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1366.5" y="1054.5"/>
+        </scene>
+        <!--动态折线的绘制-->
+        <scene sceneID="CKL-Id-8W6">
+            <objects>
+                <viewController id="v7W-Sc-76o" customClass="AnimalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Hi-3k-dHm"/>
+                        <viewControllerLayoutGuide type="bottom" id="QoM-Rw-Mx3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qZN-KV-sLo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.91228316827606848" blue="0.84895528512099028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="动态折线的绘制" id="rSY-85-pYN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wE1-Hb-1Le" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1393.5" y="1214.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Lh9-zM-vPr">
+            <objects>
+                <navigationController id="wMf-Oe-63p" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oZ1-ow-Agf">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zRR-EU-SIb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kIU-9S-3q3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2219.5" y="721.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="动态折线.png" width="1024" height="640"/>
+        <image name="各种形状图.png" width="868" height="874"/>
+        <image name="杂图.png" width="390" height="384"/>
+        <image name="柱状图.png" width="1076" height="836"/>
+        <image name="走势图.png" width="460" height="262"/>
+        <image name="饼状图.png" width="716" height="630"/>
+    </resources>
+</document>

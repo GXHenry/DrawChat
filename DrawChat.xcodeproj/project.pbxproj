@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EB97F31CC939D9004C9A72 /* DrawChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB97F21CC939D9004C9A72 /* DrawChatTests.m */; };
+		18EB97FE1CC939D9004C9A72 /* DrawChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB97FD1CC939D9004C9A72 /* DrawChatUITests.m */; };
+		18EB9CAB1CC93E2C004C9A72 /* AFDescribeObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C591CC93E2C004C9A72 /* AFDescribeObj.m */; };
+		18EB9CAC1CC93E2C004C9A72 /* AFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C5B1CC93E2C004C9A72 /* AFView.m */; };
+		18EB9CAD1CC93E2C004C9A72 /* AnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C5D1CC93E2C004C9A72 /* AnimalViewController.m */; };
+		18EB9CAE1CC93E2C004C9A72 /* 6b15f23f-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C5E1CC93E2C004C9A72 /* 6b15f23f-7.jpg */; };
+		18EB9CB01CC93E2C004C9A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C621CC93E2C004C9A72 /* AppDelegate.m */; };
+		18EB9CB11CC93E2C004C9A72 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C631CC93E2C004C9A72 /* apple.jpg */; };
+		18EB9CB21CC93E2C004C9A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C641CC93E2C004C9A72 /* Assets.xcassets */; };
+		18EB9CB31CC93E2C004C9A72 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C651CC93E2C004C9A72 /* back.jpg */; };
+		18EB9CB41CC93E2C004C9A72 /* ben.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C661CC93E2C004C9A72 /* ben.jpg */; };
+		18EB9CB51CC93E2C004C9A72 /* EColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C691CC93E2C004C9A72 /* EColor.m */; };
+		18EB9CB61CC93E2C004C9A72 /* EColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C6B1CC93E2C004C9A72 /* EColumn.m */; };
+		18EB9CB71CC93E2C004C9A72 /* EColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C6D1CC93E2C004C9A72 /* EColumnChart.m */; };
+		18EB9CB81CC93E2C004C9A72 /* EColumnChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C6F1CC93E2C004C9A72 /* EColumnChartLabel.m */; };
+		18EB9CB91CC93E2C004C9A72 /* EColumnDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C711CC93E2C004C9A72 /* EColumnDataModel.m */; };
+		18EB9CBA1CC93E2C004C9A72 /* EFloatBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C731CC93E2C004C9A72 /* EFloatBox.m */; };
+		18EB9CBB1CC93E2C004C9A72 /* ELine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C751CC93E2C004C9A72 /* ELine.m */; };
+		18EB9CBC1CC93E2C004C9A72 /* ELineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C771CC93E2C004C9A72 /* ELineChart.m */; };
+		18EB9CBD1CC93E2C004C9A72 /* ELineChartDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C791CC93E2C004C9A72 /* ELineChartDataModel.m */; };
+		18EB9CBE1CC93E2C004C9A72 /* EPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C7B1CC93E2C004C9A72 /* EPieChart.m */; };
+		18EB9CBF1CC93E2C004C9A72 /* EViewSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C7D1CC93E2C004C9A72 /* EViewSwitcher.m */; };
+		18EB9CC01CC93E2C004C9A72 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C7F1CC93E2C004C9A72 /* UICountingLabel.m */; };
+		18EB9CC11CC93E2C004C9A72 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C801CC93E2C004C9A72 /* Info.plist */; };
+		18EB9CC21CC93E2C004C9A72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C811CC93E2C004C9A72 /* LaunchScreen.storyboard */; };
+		18EB9CC31CC93E2C004C9A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C821CC93E2C004C9A72 /* main.m */; };
+		18EB9CC41CC93E2C004C9A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C831CC93E2C004C9A72 /* Main.storyboard */; };
+		18EB9CC51CC93E2C004C9A72 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C851CC93E2C004C9A72 /* PieChartViewController.m */; };
+		18EB9CC61CC93E2C004C9A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C881CC93E2C004C9A72 /* ViewController.m */; };
+		18EB9CC71CC93E2C004C9A72 /* UIView+ZXQuartz.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C8B1CC93E2C004C9A72 /* UIView+ZXQuartz.m */; };
+		18EB9CC81CC93E2C004C9A72 /* 动态折线.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C8C1CC93E2C004C9A72 /* 动态折线.png */; };
+		18EB9CC91CC93E2C004C9A72 /* 各种形状图.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C8D1CC93E2C004C9A72 /* 各种形状图.png */; };
+		18EB9CCA1CC93E2C004C9A72 /* BarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C901CC93E2C004C9A72 /* BarChart.m */; };
+		18EB9CCB1CC93E2C004C9A72 /* ColumnarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C921CC93E2C004C9A72 /* ColumnarViewController.m */; };
+		18EB9CCC1CC93E2C004C9A72 /* 柱状图.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C931CC93E2C004C9A72 /* 柱状图.png */; };
+		18EB9CCD1CC93E2C004C9A72 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C961CC93E2C004C9A72 /* CustomView.m */; };
+		18EB9CCE1CC93E2C004C9A72 /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C981CC93E2C004C9A72 /* ShapeViewController.m */; };
+		18EB9CCF1CC93E2C004C9A72 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C9B1CC93E2C004C9A72 /* Canvas.m */; };
+		18EB9CD01CC93E2C004C9A72 /* DrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9C9D1CC93E2C004C9A72 /* DrawLineViewController.m */; };
+		18EB9CD11CC93E2C004C9A72 /* 杂图.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9C9E1CC93E2C004C9A72 /* 杂图.png */; };
+		18EB9CD21CC93E2C004C9A72 /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9CA11CC93E2C004C9A72 /* LineChartView.m */; };
+		18EB9CD31CC93E2C004C9A72 /* LineChartViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9CA31CC93E2C004C9A72 /* LineChartViewDemo.m */; };
+		18EB9CD41CC93E2C004C9A72 /* trendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9CA51CC93E2C004C9A72 /* trendViewController.m */; };
+		18EB9CD51CC93E2C004C9A72 /* 走势图.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9CA61CC93E2C004C9A72 /* 走势图.png */; };
+		18EB9CD61CC93E2C004C9A72 /* CLMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB9CA91CC93E2C004C9A72 /* CLMView.m */; };
+		18EB9CD71CC93E2C004C9A72 /* 饼状图.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB9CAA1CC93E2C004C9A72 /* 饼状图.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EB97EF1CC939D9004C9A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EB97CD1CC939D9004C9A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EB97D41CC939D9004C9A72;
+			remoteInfo = DrawChat;
+		};
+		18EB97FA1CC939D9004C9A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EB97CD1CC939D9004C9A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EB97D41CC939D9004C9A72;
+			remoteInfo = DrawChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18EB97D51CC939D9004C9A72 /* DrawChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EB97EE1CC939D9004C9A72 /* DrawChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EB97F21CC939D9004C9A72 /* DrawChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawChatTests.m; sourceTree = "<group>"; };
+		18EB97F41CC939D9004C9A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EB97F91CC939D9004C9A72 /* DrawChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EB97FD1CC939D9004C9A72 /* DrawChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawChatUITests.m; sourceTree = "<group>"; };
+		18EB97FF1CC939D9004C9A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EB9C581CC93E2C004C9A72 /* AFDescribeObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDescribeObj.h; sourceTree = "<group>"; };
+		18EB9C591CC93E2C004C9A72 /* AFDescribeObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDescribeObj.m; sourceTree = "<group>"; };
+		18EB9C5A1CC93E2C004C9A72 /* AFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFView.h; sourceTree = "<group>"; };
+		18EB9C5B1CC93E2C004C9A72 /* AFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFView.m; sourceTree = "<group>"; };
+		18EB9C5C1CC93E2C004C9A72 /* AnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalViewController.h; sourceTree = "<group>"; };
+		18EB9C5D1CC93E2C004C9A72 /* AnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalViewController.m; sourceTree = "<group>"; };
+		18EB9C5E1CC93E2C004C9A72 /* 6b15f23f-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6b15f23f-7.jpg"; sourceTree = "<group>"; };
+		18EB9C611CC93E2C004C9A72 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18EB9C621CC93E2C004C9A72 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18EB9C631CC93E2C004C9A72 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		18EB9C641CC93E2C004C9A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EB9C651CC93E2C004C9A72 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		18EB9C661CC93E2C004C9A72 /* ben.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ben.jpg; sourceTree = "<group>"; };
+		18EB9C681CC93E2C004C9A72 /* EColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EColor.h; sourceTree = "<group>"; };
+		18EB9C691CC93E2C004C9A72 /* EColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EColor.m; sourceTree = "<group>"; };
+		18EB9C6A1CC93E2C004C9A72 /* EColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EColumn.h; sourceTree = "<group>"; };
+		18EB9C6B1CC93E2C004C9A72 /* EColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EColumn.m; sourceTree = "<group>"; };
+		18EB9C6C1CC93E2C004C9A72 /* EColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EColumnChart.h; sourceTree = "<group>"; };
+		18EB9C6D1CC93E2C004C9A72 /* EColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EColumnChart.m; sourceTree = "<group>"; };
+		18EB9C6E1CC93E2C004C9A72 /* EColumnChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EColumnChartLabel.h; sourceTree = "<group>"; };
+		18EB9C6F1CC93E2C004C9A72 /* EColumnChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EColumnChartLabel.m; sourceTree = "<group>"; };
+		18EB9C701CC93E2C004C9A72 /* EColumnDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EColumnDataModel.h; sourceTree = "<group>"; };
+		18EB9C711CC93E2C004C9A72 /* EColumnDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EColumnDataModel.m; sourceTree = "<group>"; };
+		18EB9C721CC93E2C004C9A72 /* EFloatBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFloatBox.h; sourceTree = "<group>"; };
+		18EB9C731CC93E2C004C9A72 /* EFloatBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFloatBox.m; sourceTree = "<group>"; };
+		18EB9C741CC93E2C004C9A72 /* ELine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELine.h; sourceTree = "<group>"; };
+		18EB9C751CC93E2C004C9A72 /* ELine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELine.m; sourceTree = "<group>"; };
+		18EB9C761CC93E2C004C9A72 /* ELineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELineChart.h; sourceTree = "<group>"; };
+		18EB9C771CC93E2C004C9A72 /* ELineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELineChart.m; sourceTree = "<group>"; };
+		18EB9C781CC93E2C004C9A72 /* ELineChartDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELineChartDataModel.h; sourceTree = "<group>"; };
+		18EB9C791CC93E2C004C9A72 /* ELineChartDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELineChartDataModel.m; sourceTree = "<group>"; };
+		18EB9C7A1CC93E2C004C9A72 /* EPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPieChart.h; sourceTree = "<group>"; };
+		18EB9C7B1CC93E2C004C9A72 /* EPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPieChart.m; sourceTree = "<group>"; };
+		18EB9C7C1CC93E2C004C9A72 /* EViewSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EViewSwitcher.h; sourceTree = "<group>"; };
+		18EB9C7D1CC93E2C004C9A72 /* EViewSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EViewSwitcher.m; sourceTree = "<group>"; };
+		18EB9C7E1CC93E2C004C9A72 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		18EB9C7F1CC93E2C004C9A72 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		18EB9C801CC93E2C004C9A72 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EB9C811CC93E2C004C9A72 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EB9C821CC93E2C004C9A72 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18EB9C831CC93E2C004C9A72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18EB9C841CC93E2C004C9A72 /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PieChartViewController.h; path = ../PieChartViewController.h; sourceTree = "<group>"; };
+		18EB9C851CC93E2C004C9A72 /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PieChartViewController.m; path = ../PieChartViewController.m; sourceTree = "<group>"; };
+		18EB9C861CC93E2C004C9A72 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18EB9C871CC93E2C004C9A72 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18EB9C881CC93E2C004C9A72 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18EB9C8A1CC93E2C004C9A72 /* UIView+ZXQuartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXQuartz.h"; sourceTree = "<group>"; };
+		18EB9C8B1CC93E2C004C9A72 /* UIView+ZXQuartz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXQuartz.m"; sourceTree = "<group>"; };
+		18EB9C8C1CC93E2C004C9A72 /* 动态折线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "动态折线.png"; sourceTree = "<group>"; };
+		18EB9C8D1CC93E2C004C9A72 /* 各种形状图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "各种形状图.png"; sourceTree = "<group>"; };
+		18EB9C8F1CC93E2C004C9A72 /* BarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChart.h; sourceTree = "<group>"; };
+		18EB9C901CC93E2C004C9A72 /* BarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChart.m; sourceTree = "<group>"; };
+		18EB9C911CC93E2C004C9A72 /* ColumnarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnarViewController.h; sourceTree = "<group>"; };
+		18EB9C921CC93E2C004C9A72 /* ColumnarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnarViewController.m; sourceTree = "<group>"; };
+		18EB9C931CC93E2C004C9A72 /* 柱状图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柱状图.png"; sourceTree = "<group>"; };
+		18EB9C951CC93E2C004C9A72 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		18EB9C961CC93E2C004C9A72 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		18EB9C971CC93E2C004C9A72 /* ShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeViewController.h; sourceTree = "<group>"; };
+		18EB9C981CC93E2C004C9A72 /* ShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeViewController.m; sourceTree = "<group>"; };
+		18EB9C9A1CC93E2C004C9A72 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		18EB9C9B1CC93E2C004C9A72 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		18EB9C9C1CC93E2C004C9A72 /* DrawLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineViewController.h; sourceTree = "<group>"; };
+		18EB9C9D1CC93E2C004C9A72 /* DrawLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineViewController.m; sourceTree = "<group>"; };
+		18EB9C9E1CC93E2C004C9A72 /* 杂图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杂图.png"; sourceTree = "<group>"; };
+		18EB9CA01CC93E2C004C9A72 /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
+		18EB9CA11CC93E2C004C9A72 /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartView.m; sourceTree = "<group>"; };
+		18EB9CA21CC93E2C004C9A72 /* LineChartViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewDemo.h; sourceTree = "<group>"; };
+		18EB9CA31CC93E2C004C9A72 /* LineChartViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewDemo.m; sourceTree = "<group>"; };
+		18EB9CA41CC93E2C004C9A72 /* trendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trendViewController.h; sourceTree = "<group>"; };
+		18EB9CA51CC93E2C004C9A72 /* trendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trendViewController.m; sourceTree = "<group>"; };
+		18EB9CA61CC93E2C004C9A72 /* 走势图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "走势图.png"; sourceTree = "<group>"; };
+		18EB9CA81CC93E2C004C9A72 /* CLMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMView.h; sourceTree = "<group>"; };
+		18EB9CA91CC93E2C004C9A72 /* CLMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMView.m; sourceTree = "<group>"; };
+		18EB9CAA1CC93E2C004C9A72 /* 饼状图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饼状图.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EB97D21CC939D9004C9A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EB97EB1CC939D9004C9A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EB97F61CC939D9004C9A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EB97CC1CC939D9004C9A72 = {
+			isa = PBXGroup;
+			children = (
+				18EB9C561CC93E2C004C9A72 /* DrawChat */,
+				18EB97F11CC939D9004C9A72 /* DrawChatTests */,
+				18EB97FC1CC939D9004C9A72 /* DrawChatUITests */,
+				18EB97D61CC939D9004C9A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EB97D61CC939D9004C9A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EB97D51CC939D9004C9A72 /* DrawChat.app */,
+				18EB97EE1CC939D9004C9A72 /* DrawChatTests.xctest */,
+				18EB97F91CC939D9004C9A72 /* DrawChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EB97F11CC939D9004C9A72 /* DrawChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EB97F21CC939D9004C9A72 /* DrawChatTests.m */,
+				18EB97F41CC939D9004C9A72 /* Info.plist */,
+			);
+			path = DrawChatTests;
+			sourceTree = "<group>";
+		};
+		18EB97FC1CC939D9004C9A72 /* DrawChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18EB97FD1CC939D9004C9A72 /* DrawChatUITests.m */,
+				18EB97FF1CC939D9004C9A72 /* Info.plist */,
+			);
+			path = DrawChatUITests;
+			sourceTree = "<group>";
+		};
+		18EB9C561CC93E2C004C9A72 /* DrawChat */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9CDC1CC93EF0004C9A72 /* others */,
+				18EB9CDB1CC93EC9004C9A72 /* images */,
+				18EB9C571CC93E2C004C9A72 /*  动态曲线的绘制 */,
+				18EB9C671CC93E2C004C9A72 /* DJChart */,
+				18EB9C891CC93E2C004C9A72 /* ZXQuartz */,
+				18EB9C8E1CC93E2C004C9A72 /* 柱状图 */,
+				18EB9C941CC93E2C004C9A72 /* 画各种形状 */,
+				18EB9C991CC93E2C004C9A72 /* 画线图 */,
+				18EB9C9F1CC93E2C004C9A72 /* 走势图 */,
+				18EB9CA71CC93E2C004C9A72 /* 饼状图 */,
+			);
+			path = DrawChat;
+			sourceTree = "<group>";
+		};
+		18EB9C571CC93E2C004C9A72 /*  动态曲线的绘制 */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9C581CC93E2C004C9A72 /* AFDescribeObj.h */,
+				18EB9C591CC93E2C004C9A72 /* AFDescribeObj.m */,
+				18EB9C5A1CC93E2C004C9A72 /* AFView.h */,
+				18EB9C5B1CC93E2C004C9A72 /* AFView.m */,
+				18EB9C5C1CC93E2C004C9A72 /* AnimalViewController.h */,
+				18EB9C5D1CC93E2C004C9A72 /* AnimalViewController.m */,
+			);
+			path = " 动态曲线的绘制";
+			sourceTree = "<group>";
+		};
+		18EB9C671CC93E2C004C9A72 /* DJChart */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9C681CC93E2C004C9A72 /* EColor.h */,
+				18EB9C691CC93E2C004C9A72 /* EColor.m */,
+				18EB9C6A1CC93E2C004C9A72 /* EColumn.h */,
+				18EB9C6B1CC93E2C004C9A72 /* EColumn.m */,
+				18EB9C6C1CC93E2C004C9A72 /* EColumnChart.h */,
+				18EB9C6D1CC93E2C004C9A72 /* EColumnChart.m */,
+				18EB9C6E1CC93E2C004C9A72 /* EColumnChartLabel.h */,
+				18EB9C6F1CC93E2C004C9A72 /* EColumnChartLabel.m */,
+				18EB9C701CC93E2C004C9A72 /* EColumnDataModel.h */,
+				18EB9C711CC93E2C004C9A72 /* EColumnDataModel.m */,
+				18EB9C721CC93E2C004C9A72 /* EFloatBox.h */,
+				18EB9C731CC93E2C004C9A72 /* EFloatBox.m */,
+				18EB9C741CC93E2C004C9A72 /* ELine.h */,
+				18EB9C751CC93E2C004C9A72 /* ELine.m */,
+				18EB9C761CC93E2C004C9A72 /* ELineChart.h */,
+				18EB9C771CC93E2C004C9A72 /* ELineChart.m */,
+				18EB9C781CC93E2C004C9A72 /* ELineChartDataModel.h */,
+				18EB9C791CC93E2C004C9A72 /* ELineChartDataModel.m */,
+				18EB9C7A1CC93E2C004C9A72 /* EPieChart.h */,
+				18EB9C7B1CC93E2C004C9A72 /* EPieChart.m */,
+				18EB9C7C1CC93E2C004C9A72 /* EViewSwitcher.h */,
+				18EB9C7D1CC93E2C004C9A72 /* EViewSwitcher.m */,
+				18EB9C7E1CC93E2C004C9A72 /* UICountingLabel.h */,
+				18EB9C7F1CC93E2C004C9A72 /* UICountingLabel.m */,
+			);
+			path = DJChart;
+			sourceTree = "<group>";
+		};
+		18EB9C891CC93E2C004C9A72 /* ZXQuartz */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9C8A1CC93E2C004C9A72 /* UIView+ZXQuartz.h */,
+				18EB9C8B1CC93E2C004C9A72 /* UIView+ZXQuartz.m */,
+			);
+			path = ZXQuartz;
+			sourceTree = "<group>";
+		};
+		18EB9C8E1CC93E2C004C9A72 /* 柱状图 */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9C8F1CC93E2C004C9A72 /* BarChart.h */,
+				18EB9C901CC93E2C004C9A72 /* BarChart.m */,
+				18EB9C911CC93E2C004C9A72 /* ColumnarViewController.h */,
+				18EB9C921CC93E2C004C9A72 /* ColumnarViewController.m */,
+			);
+			path = "柱状图";
+			sourceTree = "<group>";
+		};
+		18EB9C941CC93E2C004C9A72 /* 画各种形状 */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9C951CC93E2C004C9A72 /* CustomView.h */,
+				18EB9C961CC93E2C004C9A72 /* CustomView.m */,
+				18EB9C971CC93E2C004C9A72 /* ShapeViewController.h */,
+				18EB9C981CC93E2C004C9A72 /* ShapeViewController.m */,
+			);
+			path = "画各种形状";
+			sourceTree = "<group>";
+		};
+		18EB9C991CC93E2C004C9A72 /* 画线图 */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9C9A1CC93E2C004C9A72 /* Canvas.h */,
+				18EB9C9B1CC93E2C004C9A72 /* Canvas.m */,
+				18EB9C9C1CC93E2C004C9A72 /* DrawLineViewController.h */,
+				18EB9C9D1CC93E2C004C9A72 /* DrawLineViewController.m */,
+				18EB9C9E1CC93E2C004C9A72 /* 杂图.png */,
+			);
+			path = "画线图";
+			sourceTree = "<group>";
+		};
+		18EB9C9F1CC93E2C004C9A72 /* 走势图 */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9CA01CC93E2C004C9A72 /* LineChartView.h */,
+				18EB9CA11CC93E2C004C9A72 /* LineChartView.m */,
+				18EB9C841CC93E2C004C9A72 /* PieChartViewController.h */,
+				18EB9C851CC93E2C004C9A72 /* PieChartViewController.m */,
+				18EB9CA21CC93E2C004C9A72 /* LineChartViewDemo.h */,
+				18EB9CA31CC93E2C004C9A72 /* LineChartViewDemo.m */,
+				18EB9CA41CC93E2C004C9A72 /* trendViewController.h */,
+				18EB9CA51CC93E2C004C9A72 /* trendViewController.m */,
+			);
+			path = "走势图";
+			sourceTree = "<group>";
+		};
+		18EB9CA71CC93E2C004C9A72 /* 饼状图 */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9CA81CC93E2C004C9A72 /* CLMView.h */,
+				18EB9CA91CC93E2C004C9A72 /* CLMView.m */,
+			);
+			path = "饼状图";
+			sourceTree = "<group>";
+		};
+		18EB9CDB1CC93EC9004C9A72 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9CA61CC93E2C004C9A72 /* 走势图.png */,
+				18EB9C5E1CC93E2C004C9A72 /* 6b15f23f-7.jpg */,
+				18EB9C8D1CC93E2C004C9A72 /* 各种形状图.png */,
+				18EB9C931CC93E2C004C9A72 /* 柱状图.png */,
+				18EB9C8C1CC93E2C004C9A72 /* 动态折线.png */,
+				18EB9C631CC93E2C004C9A72 /* apple.jpg */,
+				18EB9C651CC93E2C004C9A72 /* back.jpg */,
+				18EB9CAA1CC93E2C004C9A72 /* 饼状图.png */,
+				18EB9C661CC93E2C004C9A72 /* ben.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		18EB9CDC1CC93EF0004C9A72 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				18EB9C861CC93E2C004C9A72 /* PrefixHeader.pch */,
+				18EB9C871CC93E2C004C9A72 /* ViewController.h */,
+				18EB9C881CC93E2C004C9A72 /* ViewController.m */,
+				18EB9C801CC93E2C004C9A72 /* Info.plist */,
+				18EB9C811CC93E2C004C9A72 /* LaunchScreen.storyboard */,
+				18EB9C821CC93E2C004C9A72 /* main.m */,
+				18EB9C831CC93E2C004C9A72 /* Main.storyboard */,
+				18EB9C611CC93E2C004C9A72 /* AppDelegate.h */,
+				18EB9C621CC93E2C004C9A72 /* AppDelegate.m */,
+				18EB9C641CC93E2C004C9A72 /* Assets.xcassets */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EB97D41CC939D9004C9A72 /* DrawChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EB98021CC939D9004C9A72 /* Build configuration list for PBXNativeTarget "DrawChat" */;
+			buildPhases = (
+				18EB97D11CC939D9004C9A72 /* Sources */,
+				18EB97D21CC939D9004C9A72 /* Frameworks */,
+				18EB97D31CC939D9004C9A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawChat;
+			productName = DrawChat;
+			productReference = 18EB97D51CC939D9004C9A72 /* DrawChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EB97ED1CC939D9004C9A72 /* DrawChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EB98051CC939D9004C9A72 /* Build configuration list for PBXNativeTarget "DrawChatTests" */;
+			buildPhases = (
+				18EB97EA1CC939D9004C9A72 /* Sources */,
+				18EB97EB1CC939D9004C9A72 /* Frameworks */,
+				18EB97EC1CC939D9004C9A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EB97F01CC939D9004C9A72 /* PBXTargetDependency */,
+			);
+			name = DrawChatTests;
+			productName = DrawChatTests;
+			productReference = 18EB97EE1CC939D9004C9A72 /* DrawChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18EB97F81CC939D9004C9A72 /* DrawChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EB98081CC939D9004C9A72 /* Build configuration list for PBXNativeTarget "DrawChatUITests" */;
+			buildPhases = (
+				18EB97F51CC939D9004C9A72 /* Sources */,
+				18EB97F61CC939D9004C9A72 /* Frameworks */,
+				18EB97F71CC939D9004C9A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EB97FB1CC939D9004C9A72 /* PBXTargetDependency */,
+			);
+			name = DrawChatUITests;
+			productName = DrawChatUITests;
+			productReference = 18EB97F91CC939D9004C9A72 /* DrawChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EB97CD1CC939D9004C9A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liuYuGang;
+				TargetAttributes = {
+					18EB97D41CC939D9004C9A72 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3EEYJWA737;
+					};
+					18EB97ED1CC939D9004C9A72 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WY68AWM54K;
+						TestTargetID = 18EB97D41CC939D9004C9A72;
+					};
+					18EB97F81CC939D9004C9A72 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WY68AWM54K;
+						TestTargetID = 18EB97D41CC939D9004C9A72;
+					};
+				};
+			};
+			buildConfigurationList = 18EB97D01CC939D9004C9A72 /* Build configuration list for PBXProject "DrawChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EB97CC1CC939D9004C9A72;
+			productRefGroup = 18EB97D61CC939D9004C9A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EB97D41CC939D9004C9A72 /* DrawChat */,
+				18EB97ED1CC939D9004C9A72 /* DrawChatTests */,
+				18EB97F81CC939D9004C9A72 /* DrawChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EB97D31CC939D9004C9A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EB9CB31CC93E2C004C9A72 /* back.jpg in Resources */,
+				18EB9CC91CC93E2C004C9A72 /* 各种形状图.png in Resources */,
+				18EB9CB11CC93E2C004C9A72 /* apple.jpg in Resources */,
+				18EB9CC11CC93E2C004C9A72 /* Info.plist in Resources */,
+				18EB9CC41CC93E2C004C9A72 /* Main.storyboard in Resources */,
+				18EB9CB41CC93E2C004C9A72 /* ben.jpg in Resources */,
+				18EB9CCC1CC93E2C004C9A72 /* 柱状图.png in Resources */,
+				18EB9CC21CC93E2C004C9A72 /* LaunchScreen.storyboard in Resources */,
+				18EB9CD71CC93E2C004C9A72 /* 饼状图.png in Resources */,
+				18EB9CC81CC93E2C004C9A72 /* 动态折线.png in Resources */,
+				18EB9CD11CC93E2C004C9A72 /* 杂图.png in Resources */,
+				18EB9CB21CC93E2C004C9A72 /* Assets.xcassets in Resources */,
+				18EB9CAE1CC93E2C004C9A72 /* 6b15f23f-7.jpg in Resources */,
+				18EB9CD51CC93E2C004C9A72 /* 走势图.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EB97EC1CC939D9004C9A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EB97F71CC939D9004C9A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EB97D11CC939D9004C9A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EB9CCA1CC93E2C004C9A72 /* BarChart.m in Sources */,
+				18EB9CCE1CC93E2C004C9A72 /* ShapeViewController.m in Sources */,
+				18EB9CBD1CC93E2C004C9A72 /* ELineChartDataModel.m in Sources */,
+				18EB9CC51CC93E2C004C9A72 /* PieChartViewController.m in Sources */,
+				18EB9CAD1CC93E2C004C9A72 /* AnimalViewController.m in Sources */,
+				18EB9CB61CC93E2C004C9A72 /* EColumn.m in Sources */,
+				18EB9CCD1CC93E2C004C9A72 /* CustomView.m in Sources */,
+				18EB9CBF1CC93E2C004C9A72 /* EViewSwitcher.m in Sources */,
+				18EB9CB81CC93E2C004C9A72 /* EColumnChartLabel.m in Sources */,
+				18EB9CCB1CC93E2C004C9A72 /* ColumnarViewController.m in Sources */,
+				18EB9CD31CC93E2C004C9A72 /* LineChartViewDemo.m in Sources */,
+				18EB9CBE1CC93E2C004C9A72 /* EPieChart.m in Sources */,
+				18EB9CBB1CC93E2C004C9A72 /* ELine.m in Sources */,
+				18EB9CC01CC93E2C004C9A72 /* UICountingLabel.m in Sources */,
+				18EB9CCF1CC93E2C004C9A72 /* Canvas.m in Sources */,
+				18EB9CD01CC93E2C004C9A72 /* DrawLineViewController.m in Sources */,
+				18EB9CB91CC93E2C004C9A72 /* EColumnDataModel.m in Sources */,
+				18EB9CAB1CC93E2C004C9A72 /* AFDescribeObj.m in Sources */,
+				18EB9CD41CC93E2C004C9A72 /* trendViewController.m in Sources */,
+				18EB9CBC1CC93E2C004C9A72 /* ELineChart.m in Sources */,
+				18EB9CAC1CC93E2C004C9A72 /* AFView.m in Sources */,
+				18EB9CC61CC93E2C004C9A72 /* ViewController.m in Sources */,
+				18EB9CBA1CC93E2C004C9A72 /* EFloatBox.m in Sources */,
+				18EB9CB01CC93E2C004C9A72 /* AppDelegate.m in Sources */,
+				18EB9CD21CC93E2C004C9A72 /* LineChartView.m in Sources */,
+				18EB9CB71CC93E2C004C9A72 /* EColumnChart.m in Sources */,
+				18EB9CC31CC93E2C004C9A72 /* main.m in Sources */,
+				18EB9CC71CC93E2C004C9A72 /* UIView+ZXQuartz.m in Sources */,
+				18EB9CB51CC93E2C004C9A72 /* EColor.m in Sources */,
+				18EB9CD61CC93E2C004C9A72 /* CLMView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EB97EA1CC939D9004C9A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EB97F31CC939D9004C9A72 /* DrawChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EB97F51CC939D9004C9A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EB97FE1CC939D9004C9A72 /* DrawChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EB97F01CC939D9004C9A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EB97D41CC939D9004C9A72 /* DrawChat */;
+			targetProxy = 18EB97EF1CC939D9004C9A72 /* PBXContainerItemProxy */;
+		};
+		18EB97FB1CC939D9004C9A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EB97D41CC939D9004C9A72 /* DrawChat */;
+			targetProxy = 18EB97FA1CC939D9004C9A72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18EB98001CC939D9004C9A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18EB98011CC939D9004C9A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EB98031CC939D9004C9A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3EEYJWA737;
+				GCC_PREFIX_HEADER = /Users/rmitec/Desktop/Demo/DrawChat/DrawChat/PrefixHeader.pch;
+				INFOPLIST_FILE = DrawChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.DrawChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18EB98041CC939D9004C9A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3EEYJWA737;
+				GCC_PREFIX_HEADER = /Users/rmitec/Desktop/Demo/DrawChat/DrawChat/PrefixHeader.pch;
+				INFOPLIST_FILE = DrawChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.DrawChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18EB98061CC939D9004C9A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.DrawChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawChat.app/DrawChat";
+			};
+			name = Debug;
+		};
+		18EB98071CC939D9004C9A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.DrawChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawChat.app/DrawChat";
+			};
+			name = Release;
+		};
+		18EB98091CC939D9004C9A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.DrawChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawChat;
+			};
+			name = Debug;
+		};
+		18EB980A1CC939D9004C9A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.DrawChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EB97D01CC939D9004C9A72 /* Build configuration list for PBXProject "DrawChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EB98001CC939D9004C9A72 /* Debug */,
+				18EB98011CC939D9004C9A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EB98021CC939D9004C9A72 /* Build configuration list for PBXNativeTarget "DrawChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EB98031CC939D9004C9A72 /* Debug */,
+				18EB98041CC939D9004C9A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EB98051CC939D9004C9A72 /* Build configuration list for PBXNativeTarget "DrawChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EB98061CC939D9004C9A72 /* Debug */,
+				18EB98071CC939D9004C9A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EB98081CC939D9004C9A72 /* Build configuration list for PBXNativeTarget "DrawChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EB98091CC939D9004C9A72 /* Debug */,
+				18EB980A1CC939D9004C9A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EB97CD1CC939D9004C9A72 /* Project object */;
+}
